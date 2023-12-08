@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*---------------- navbar start ----------------*/
+.navbar{
+  width:100%;
+  height:5rem;
+  display:flex;
+  justify-content:space-around;
+  background-color:black;
+}
+
+.navbar img{
+  margin-left:-12rem;
+  width:60px;
+}
+
+#navul{
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin:auto 0;  
+}
+
+#navul a{
+  text-decoration: none;
+  color:white;
+}
+
+#navul a:hover{
+  color:orangered;
+}
+/*-------------- navbar End ----------- */
+
+
+
+/*---------------- main start start ----------------*/
+.booking-container{
+  width:80%;
+  margin: auto;
+  border-radius: 10px;
+  padding:4rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.upper{
+  display:flex;
+  justify-content: space-evenly;
+
+}
+
+.upper input{
+  margin:0 2rem;
+}
+
+.form input,select{
+  
+  border:1px solid blue;
+  border-radius: 5px;
+  padding: 0.4rem;
+}
+
+label{
+  color:orangered;
+  font-size: 18 px;
+}
+
+.lower{
+  margin: 2rem  0rem;
+  display:flex;
+  justify-content: space-between;
+}
+
+#number{
+  width:30%;
+  margin-top:1.5rem;
+}
+
+.form .button{
+  width:20%;
+  height:5rem;
+  color:#fff;
+  background-color: orangered;
+  border-radius: 10px;
+  border: 2px solid orangered;
+  margin:auto;
+}
+
+.uppercase{
+  width:80%;
+  height:100%;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding:2rem 2rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:blue;
+}
+
+textarea{
+  width:100%;
+}
+/*---------------- main end ----------------*/
+
+
+/* -------------------aboutus start-------------------- */
+.displaycard{
+  background-color:darkkhaki;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin:2rem 2rem;
+  padding-top: 1rem;
+}
+.card-container .card{
+  width:20rem;
+  margin:2rem 0;
+}
+/* -------------------aboutus end-------------------- */
+
+
+
+/* ----------------------------About start------------------------------ */
+.breadcrumb{
+  height:5rem;
+  margin:1rem 1rem;
+  align-items: center;
+  padding:auto 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------------------About end------------------------------ */
+
+
+/*---------------- Footer start ----------------*/
+.footer{
+  background-color: black;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:2rem;
+  
+}
+
+
+
+
+
+
+
+
+.row1,.row2,.row3,.row4{
+  color:white;
+  width:20%;
+}
+
+.footerul li{
+  list-style: none;
+  font-size: 16px;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#social-logo{
+  width:20px;
+}
+
+
+/*---------------- footer start ----------------*/
