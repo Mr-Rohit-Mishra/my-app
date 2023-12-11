@@ -7,7 +7,6 @@ export  default function Main(props){
         // console.log("uppercase was clicked"+ text);
         let newText = text.toUpperCase();
         setText(newText)
-        
     }
 
     const handleloClick =()=>{
@@ -33,10 +32,9 @@ export  default function Main(props){
         setText(event.target.value)
     }
 
-    // not working
     // const handleExtraSpace =()=>{
-    //     let newText = text.split(/[]+/);
-    //     setText(newText.join(" "));
+    //     let newText= ({text});
+    //     setText
     // }
 
     const[text, setText] = useState(''); 
@@ -114,9 +112,9 @@ export  default function Main(props){
                     </div>
                     <h4  className="mt-3">Text Summary</h4>
                     <p>{text.trim() === '' ? 0 : text.match(/\S+/g).length} words and {text.replace(/\s+/g, '').length} characters</p>
-                    <p>It will take {0.008 * text.split(" ").length} minutes to read This text. </p>
+                    <p>It will take {0.008 * text.split(" ").filter((element)=>{return element.length !==0}).length} minutes to read This text. </p>
                     <h4>Preview</h4>
-                    <details >{text}</details>
+                    <details >{text.length>0?text:"Enter something in text area to preview"}</details>
                 </div>
 
             </div>

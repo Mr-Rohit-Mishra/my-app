@@ -29,50 +29,50 @@ export default function About(props) {
           
         </div>
         <div className="card-container d-flex justify-content-around">
-          <div class="card">
-            <img src="slide1.JPG" class="card-img-top" alt="img"/>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card">
+            <img src="slide1.JPG" className="card-img-top" alt="img"/>
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <button className="btn btn-primary">View Details</button>
           </div>
-          <div class="card">
-            <img src="slide2.JPG" class="card-img-top" alt="img"/>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card">
+            <img src="slide2.JPG" className="card-img-top" alt="img"/>
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <button className="btn btn-primary">View Details</button>
           </div>
-          <div class="card" >
-            <img src="slide3.JPG" class="card-img-top" alt="img"/>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card" >
+            <img src="slide3.JPG" className="card-img-top" alt="img"/>
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <button className="btn btn-primary">View Details</button>
           </div>
         </div>
         <h3 className="text-center my-5">Unique Destination Arrangements</h3>
         <div className="card-container d-flex justify-content-around">
-          <div class="card">
-            <img src="slide1.JPG" class="card-img-top" alt="img"/>
-            <div class="card-body d-flex">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card">
+            <img src="slide1.JPG" className="card-img-top" alt="img"/>
+            <div className="card-body d-flex">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <button className="btn btn-primary">View Details</button>
             </div>
             
           </div>
-          <div class="card">
-            <img src="slide2.JPG" class="card-img-top" alt="img"/>
-            <div class="card-body d-flex">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card">
+            <img src="slide2.JPG" className="card-img-top" alt="img"/>
+            <div className="card-body d-flex">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <button className="btn btn-primary">View Details</button>
             </div>
             
           </div>
-          <div class="card" >
-            <img src="slide3.JPG" class="card-img-top" alt="img"/>
-            <div class="card-body d-flex">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card" >
+            <img src="slide3.JPG" className="card-img-top" alt="img"/>
+            <div className="card-body d-flex">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <button className="btn btn-primary">View Details</button>
             </div>
             

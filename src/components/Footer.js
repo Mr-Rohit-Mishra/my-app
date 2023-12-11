@@ -10,17 +10,17 @@ export default function Footer(props){
         document.body.style.backgroundColor='#000'
        
     }
-    const handlepurpleClick =()=>{
+    const handlePurpleClick =()=>{
         document.getElementById('modeimg').src='purple.jpg' ;
         document.body.style.backgroundColor='#37008091'
        
     }
-    const handleblueClick =()=>{
+    const handleBlueClick =()=>{
         document.getElementById('modeimg').src='blue.jpg' ;
         document.body.style.backgroundColor='blue'
        
     }
-    const handlegrayClick =()=>{
+    const handleGrayClick =()=>{
         document.getElementById('modeimg').src='gray.jpg' ;
         document.body.style.backgroundColor='#a9a9a9c4'
        
@@ -87,9 +87,9 @@ export default function Footer(props){
                     <ul  className="dropdown-menu">
                       <button  className="dropdown-item" onClick={handleDarkClick}>Dark<img  className="mx-2" src="moon.svg" alt="icon"/></button>
                       <button  className="dropdown-item" onClick={handleLightClick}>Light<img className="mx-2"  src="sun.svg" alt="icon"/></button>
-                      <button  className="dropdown-item" onClick={handlepurpleClick}>Purple-Dark<img className="mx-2"  src="purple.jpg" alt="icon"/></button>
-                      <button  className="dropdown-item" onClick={handleblueClick}>Blue-Dark<img  className="mx-2" src="blue.jpg" alt="icon"/></button>
-                      <button  className="dropdown-item" onClick={handlegrayClick}>Grey-Dark<img className="mx-2"  src="gray.jpg" alt="icon"/></button>
+                      <button  className="dropdown-item" onClick={handlePurpleClick}>Purple-Dark<img className="mx-2"  src="purple.jpg" alt="icon"/></button>
+                      <button  className="dropdown-item" onClick={handleBlueClick}>Blue-Dark<img  className="mx-2" src="blue.jpg" alt="icon"/></button>
+                      <button  className="dropdown-item" onClick={handleGrayClick}>Grey-Dark<img className="mx-2"  src="gray.jpg" alt="icon"/></button>
                     </ul>
                 </div>
             </div>

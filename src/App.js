@@ -13,13 +13,14 @@ function App() {
 
   const [alert,setAlert] = useState(null);
 
+  
   const showAlert =(message, type)=>{
     setAlert({
       message:message,
       type:type
     })
   }
-
+  
   
   const DarkMode = ()=>{
     setMode('dark');
